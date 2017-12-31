@@ -1,0 +1,7 @@
+version: "2"
+syncs:
+  project-data-sync:
+    notify_terminal: true
+    src: '/LOCAL_MACHINE_PROJECT_PATH/'
+    sync_host_ip: 'auto'
+    sync_excludes: ['.idea/', 'pub/', 'var/', '.hg/', '.git']
