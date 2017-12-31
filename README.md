@@ -37,6 +37,8 @@ docker-sync start
 docker-compose up -d
 ```
 
+4. Add project host name to local hosts on your laptop **sudo vi /etc/hosts**
+
 ### Commands
 
 1. **docker ps** - show all launched services/containers 
