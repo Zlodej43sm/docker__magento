@@ -22,7 +22,7 @@ Docker setup environment for Magento.
 1. Create project environment image (tag name same as in  **docker-compose.yml**).
 
 ```bash
-docker image -t you_group/project_name:latest path_to_docker_file
+docker image build -t you_group/project_name:latest path_to_docker_file
 ```
 
 2. **ONLY Magento 2.x**. Create & launch sync image.
